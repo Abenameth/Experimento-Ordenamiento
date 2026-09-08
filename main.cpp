@@ -11,7 +11,7 @@ int busquedaLineal(const vector<int>& a,int t){
         }
     }
     return -1;
-} //complejidad (n)
+} //complejidad O(n)
 
 int busquedaBinaria(const vector<int>& a, int t) {
     int l = 0;
