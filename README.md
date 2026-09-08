@@ -7,7 +7,6 @@ Para realizar la medición se generaron los 4 vectores de los tamaños requerido
 
 Resultados:
 
-============================================================================
 Tamaño de Entrada | Búsqueda Lineal | Búsqueda Binaria | Búsqueda Trinaria |
 ----------------------------------------------------------------------------
       10^5        |     188197 ns   |      300 ns      |     303.333 ns    |
