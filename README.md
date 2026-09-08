@@ -6,7 +6,7 @@ Para realizar la medición se generaron los 4 vectores de los tamaños requerido
 
 Resultados:
 ============================================================================
-Tamaño de Entrada | Busqueda Lineal | Busqueda Binaria | Busqueda Trinaria |
+Tamaño de Entrada | Búsqueda Lineal | Búsqueda Binaria | Búsqueda Trinaria |
 ----------------------------------------------------------------------------
       10^5        |     188197 ns   |      300 ns      |     303.333 ns    |
 ----------------------------------------------------------------------------
@@ -18,3 +18,5 @@ Tamaño de Entrada | Busqueda Lineal | Busqueda Binaria | Busqueda Trinaria |
 ----------------------------------------------------------------------------
 
 Análisis:
+Como se puede observar en los resultados el algoritmo que tuvo un peor desempeño fue la búsqueda lineal. Este resultado era de esperarse considerando la diferencia en la complejidad temporal entre los 3 algoritmos siendo la búsqueda lineal el único con una complejidad O(n). A pesar de haber tenido un pobre desempeño en estos experimentos esto no significa que los otros dos algoritmos sean mejores que la búsqueda lineal en todos los contextos ya que este es el único de los 3 que funciona de forma correcta con conjuntos no ordenados.
+En el caso de la búsqueda Binaria en contra del búsqueda trinaria las cosas se complican un poco.
